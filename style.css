@@ -8,9 +8,9 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfabn-a2vi3ejDfmPxV95UzNr3P4J_UK8u_g&usqp=CAU");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: calc(100vh);
-    background-position: 50%;
+    width: 1000px;
+    height: 100vh;
+    display:block;
     
 }
 
@@ -100,5 +100,11 @@
     margin-bottom: 30px;
 }
 
-
+.home3-container{
+	width: 100%;
+}
+.home3-numbers{
+	display: flex;
+	justify-content: space-around;
+}
 
